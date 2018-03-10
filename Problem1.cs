@@ -12,6 +12,8 @@ namespace _05
         {
             int n = int.Parse(Console.ReadLine());
 
+            Console.WriteLine("Hello");
+
             for (int i = 0; i < n; i++)
             {
                 Console.WriteLine("{0}\\{1}/{0}", new string('*', i + 1), new string('-', (n - 1) * 2 + 1 - 2 * i), new string('*', i + 1));
